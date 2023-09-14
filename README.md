@@ -3,7 +3,7 @@ O projeto abaixo consiste em um Cluster Kubernetes criado em ambiente On-premise
 
 Segue uma imagem mostrando como funcionaria a comunicação entres os agentes
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/381303b0-e017-41a7-a481-69c0aeaba67a/1595b283-2960-4bdd-b588-5c326c414373/Untitled.jpeg)
+![Untitled](https://github.com/douglas5001/Nginx-Ingress-Controller/blob/main/nodeport.jpg)
 
 Nessa configuração para do Nginx com proxy reverse é necessário que voce já tenha um cluster com no mínimo 1 laço como mostrado abaixo
 
