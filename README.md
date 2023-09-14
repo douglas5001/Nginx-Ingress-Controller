@@ -239,7 +239,7 @@ metadata:
 spec:
   type: LoadBalancer
   externalIPs:
-    - 154.53.53.239  
+    - 154.13.13.102 #seu ip externo (escolha um dos nodes)
   ports:
     - protocol: TCP
       port: 80
