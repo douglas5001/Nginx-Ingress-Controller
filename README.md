@@ -11,7 +11,7 @@ Nessa configuração para do Nginx com proxy reverse é necessário que voce já
 root@vmi1274367:~# kubectl get nodes
 NAME                           STATUS   ROLES                  AGE    VERSION
 node1                          Ready    <none>                 4d4h   v1.27.5+k3s1
-host.master   Ready    control-plane,master   4d4h   v1.27.5+k3s1
+host.master                    Ready    control-plane,master   4d4h   v1.27.5+k3s1
 ```
 
 Caso ainda não tenha configurado, poderá realizar a configuração do k3s no link abaixo https://docs.k3s.io/quick-start
