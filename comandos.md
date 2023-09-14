@@ -7,7 +7,7 @@ kubectl get pods
 kubectl get pods -n metallb-system
 kubectl -n metallb-system get all
 ```
-OBS: -n siginifica NAMESPACE, voce coloca o -n e o nome do namespace, após isso você fornece o que vocer quer listar.
+OBS: -n siginifica NAMESPACE, voce coloca o -n e o nome do namespace, após isso você fornece o que você quer listar.
 
 IPS DO NODES
 
