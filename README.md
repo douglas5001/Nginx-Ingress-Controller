@@ -377,3 +377,10 @@ root@vmi1274367:~#
 ```
 
 Pronto, se o status retornou algo parecido com o meu, voce já pode testar na Web externa utilizando o seu domínio que foi inserido no arquivos ingress.yaml.
+
+
+Você pode analizar os componetes pelo seus status ou logs, segue uma lista de comandos que podem te ajudar
+https://github.com/douglas5001/Nginx-Ingress-Controller/blob/main/comandos.md
+
+
+
