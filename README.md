@@ -129,6 +129,10 @@ Após a instalação, já devera aparecer o namespace do Nginx e seus pods, como
 
 ```python
 kubectl get pods -n ingress-nginx
+NAME                                       READY   STATUS             RESTARTS          AGE
+ingress-nginx-admission-create-pkh8t       0/1     Completed          0                 4d10h
+ingress-nginx-admission-patch-krnpw        0/1     Completed          1                 4d10h
+ingress-nginx-controller-f7f5995cc-8przl   0/1     CrashLoopBackOff   182 (3m31s ago)   4d10h
 ```
 
 ---
