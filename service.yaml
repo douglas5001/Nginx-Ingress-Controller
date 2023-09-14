@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: meu-site-service
+  namespace: meu-site-namespace
+spec:
+  selector:
+    app: meu-site
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: NodePort
