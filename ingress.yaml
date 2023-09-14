@@ -1,1 +1,17 @@
-
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: meu-site-ingress
+  namespace: meu-site-namespace
+spec:
+  rules:
+    - host: seu-dominio
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: meu-site-service
+                port:
+                  number: 80
