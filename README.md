@@ -128,7 +128,7 @@ helm install ingress-nginx ingress-nginx/ingress-nginx
 Após a instalação, já devera aparecer o namespace do Nginx e seus pods, como o exemplo abaixo
 
 ```python
-kubectl get pods -n ingress-nginx
+root@vmi1274367:~# kubectl get pods -n ingress-nginx
 NAME                                       READY   STATUS             RESTARTS          AGE
 ingress-nginx-admission-create-pkh8t       0/1     Completed          0                 4d10h
 ingress-nginx-admission-patch-krnpw        0/1     Completed          1                 4d10h
