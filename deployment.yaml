@@ -1,4 +1,20 @@
-apiVersion: v1
-kind: Namespace
+apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name: meu-site-namespace
+  name: meu-site-deployment
+  namespace: meu-site-namespace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: meu-site
+  template:
+    metadata:
+      labels:
+        app: meu-site
+    spec:
+      containers:
+        - name: meu-site-container
+          image: douglasportella/meu-portfolio:1.0
+          ports:
+            - containerPort: 80
