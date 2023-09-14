@@ -11,7 +11,7 @@ Nessa configuração para do Nginx com proxy reverse é necessário que voce já
 root@vmi1274367:~# kubectl get nodes
 NAME                           STATUS   ROLES                  AGE    VERSION
 node1                          Ready    <none>                 4d4h   v1.27.5+k3s1
-vmi1274367.contaboserver.net   Ready    control-plane,master   4d4h   v1.27.5+k3s1
+host.master   Ready    control-plane,master   4d4h   v1.27.5+k3s1
 ```
 
 Caso ainda não tenha configurado, poderá realizar a configuração do k3s no link abaixo https://docs.k3s.io/quick-start
@@ -363,7 +363,7 @@ pod/meu-site-deployment-58985ff47d-nbqph   1/1     Running   1 (6h18m ago)   7h9
 
 NAME                            TYPE           CLUSTER-IP      EXTERNAL-IP                    PORT(S)        AGE
 service/meu-site-service        NodePort       10.43.181.212   <none>                         80:30199/TCP   8h
-service/meu-site-loadbalancer   LoadBalancer   10.43.225.226   154.12.232.200   80:32544/TCP   5h51m
+service/meu-site-loadbalancer   LoadBalancer   10.43.225.226   154.13.13.102   80:32544/TCP   5h51m
 
 NAME                                  READY   UP-TO-DATE   AVAILABLE   AGE
 deployment.apps/meu-site-deployment   1/1     1            1           7h9m
